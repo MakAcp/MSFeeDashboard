@@ -5,7 +5,7 @@ import dash.dependencies as dd
 import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
-from mainpage import regionwise
+from regionwiseGrapher import regionwise
 df = pd.read_excel('universities3.xlsx')
 def world_data_preparer():
     mapdf = pd.read_excel('mapdf.xlsx')
