@@ -32,6 +32,8 @@ def getUniversities():
 
     dataframe.to_excel('universities.xlsx')
 
+
+#Converts all fees to USD
 def forexConverter():
     failed = []
     forex_dict = {'NZD':0.66, 'EUR':1.18, 'SGD':0.73, 'JPY':0.0095, 'AUD':0.72, 'SEK':0.11, 'CAD':0.76, 'CHF':1.10, 'GBP':1.31, 'USD':1}
@@ -55,6 +57,8 @@ def forexConverter():
     df.to_excel('universities2.xlsx')
 
 
+#Converts the Coountry JSON to separate State and COuntry COlumns in the DF
+
 def countryExpander():
     df = pd.read_excel('universities2.xlsx')
     df2 = pd.DataFrame()
@@ -71,9 +75,12 @@ def countryExpander():
 
     df2.to_excel('unviersities3.xlsx')
 
+
+#The Program Processes the data in 3 stages
 getUniversities()
-countryExpander()
 forexConverter()
+countryExpander()
+
 
 
 
