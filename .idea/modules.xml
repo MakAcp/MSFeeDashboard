@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/yocket.iml" filepath="$PROJECT_DIR$/.idea/yocket.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/MSinUS.iml" filepath="$PROJECT_DIR$/.idea/MSinUS.iml" />
+>>>>>>> 9ebe1b4310037356b0d95f0cccbb0d39e5c61012
     </modules>
   </component>
 </project>
