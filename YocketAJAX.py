@@ -6,6 +6,8 @@ import ast
 #response = requests.post
 session = Session()
 session.head("https://yocket.in/universities")
+#Performs requests to get more universities
+
 def getUniversities():
     i=1
     dataframe = pd.DataFrame()
@@ -69,8 +71,9 @@ def countryExpander():
 
     df2.to_excel('unviersities3.xlsx')
 
-
+getUniversities()
 countryExpander()
+forexConverter()
 
 
 
