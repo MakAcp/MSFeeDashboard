@@ -1,5 +1,5 @@
 # MSFeeDashboard : Post Graduate college fees visualiser
-## This is a dashboard based on Python’s framework Dash and Plotly. We have scraped college data for post graduate studies from the web using the Requests library from public websites like Yocket.in. The data is manoipulated using the Pandas library.
+## This is a dashboard based on Python’s framework Dash and Plotly. We have scraped college data for post graduate studies from the web using the Requests library from public websites like Yocket.in. The data is manipulated using the Pandas library.
 The first plot is a choropleth map showing the distribution of colleges in the dataset. Hovering over a country reveals its most popular colleges and the total count.
 
 <img src= "docs/Screenshot1.png">
@@ -14,6 +14,7 @@ The two bar graphs are made on the basis of average fees in each of the prominen
 
 <img src = "docs/Screenshot3.png">
 
+## The master branch uses repeated AJAX calls to get the data while the MakAcp Branch uses BeutifulSoup4 and Selenium to do the same
 
 ## Master Branch Files
 ### YocketAJAX.py
@@ -29,3 +30,10 @@ Combined Dash app to display both choropleth and bar graphs
 ## MakAcp Branch Files
 ### Webscrape.py
 This python file includes all the web scraping done in the project. This is done using the BeautifulSoup4 module and Selenium WebDriver(software testing tool). The data is put into the soup using BS4.
+
+### Cleaningdata.py
+All the necessary data cleaning steps are performed.
+
+### Dashapp.py
+Graphs displayed using Dash and Plotly Framework
+
