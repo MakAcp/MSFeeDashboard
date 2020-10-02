@@ -23,8 +23,9 @@ Simulates an AJAX request on yocket.in to keep getting universities. The three f
 Builds both bar graphs
 
 ### newdashapp.py
-Comobined Dash app to display both choropleth and bar graphs
+Combined Dash app to display both choropleth and bar graphs
 
 
 ## MakAcp Branch Files
-### Webscrape.py - This python file includes all the web scraping done in the project. This is done using the BeautifulSoup4 module and Selenium WebDriver(software testing tool). The data is put into the soup using BS4
+### Webscrape.py
+This python file includes all the web scraping done in the project. This is done using the BeautifulSoup4 module and Selenium WebDriver(software testing tool). The data is put into the soup using BS4.
