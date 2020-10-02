@@ -1,5 +1,5 @@
 # MSFeeDashboard : Post Graduate college fees visualiser
-##This is a dashboard based on Python’s framework Dash and Plotly. We have scraped college data for post graduate studies from the web using the Requests library from public websites like Yocket.in. The data is manoipulated using the Pandas library.
+## This is a dashboard based on Python’s framework Dash and Plotly. We have scraped college data for post graduate studies from the web using the Requests library from public websites like Yocket.in. The data is manoipulated using the Pandas library.
 The first plot is a choropleth map showing the distribution of colleges in the dataset. Hovering over a country reveals its most popular colleges and the total count.
 
 <img src= "docs/Screenshot1.png">
@@ -15,16 +15,16 @@ The two bar graphs are made on the basis of average fees in each of the prominen
 <img src = "docs/Screenshot3.png">
 
 
-##Master Branch Files
-###YocketAJAX.py
+## Master Branch Files
+### YocketAJAX.py
 Simulates an AJAX request on yocket.in to keep getting universities. The three functions build "universities.xlsx", "universities2.xlsx" and "universities3.xlsx" respectively to show stage wise changes in data. 
 
-###RegionWiseGrapher.py
+### RegionWiseGrapher.py
 Builds both bar graphs
 
-###newdashapp.py
+### newdashapp.py
 Comobined Dash app to display both choropleth and bar graphs
 
 
-##MakAcp Branch Files
-###Webscrape.py - This python file includes all the web scraping done in the project. This is done using the BeautifulSoup4 module and Selenium WebDriver(software testing tool). The data is put into the soup using BS4
+## MakAcp Branch Files
+### Webscrape.py - This python file includes all the web scraping done in the project. This is done using the BeautifulSoup4 module and Selenium WebDriver(software testing tool). The data is put into the soup using BS4
