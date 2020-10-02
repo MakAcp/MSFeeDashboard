@@ -8,4 +8,5 @@ The first plot is a choropleth map showing the distribution of colleges in the d
 A drop down menu allows you to view by country (currently only USA has been supported)
 <img src = "docs/Screenshot4.png">
 
-The second map is a heatmap showing deviation from the average fee in that country. Hovering over each state shows the top 5 universities and its deviation from the average
+The second map is a heatmap showing deviation from the average fee in that country. Hovering over each state shows the top 5 universities and its deviation from the average.
+<img src = "docs/Screenshot3.png">
