@@ -14,7 +14,7 @@ The two bar graphs are made on the basis of average fees in each of the prominen
 
 <img src = "docs/Screenshot3.png">
 
-## The master branch uses repeated AJAX calls to get the data while the MakAcp Branch uses BeutifulSoup4 and Selenium to do the same
+## The master branch uses repeated AJAX calls to get the data while the MakAcp Branch uses BeautifulSoup4 and Selenium to do the same
 
 ## Master Branch Files
 ### YocketAJAX.py
